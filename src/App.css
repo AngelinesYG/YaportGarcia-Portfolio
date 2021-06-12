@@ -1,0 +1,93 @@
+/* =========NAV==========*/
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 10vh;
+   background: red;
+   color: #c0c0c0;
+}
+
+.nav-Links{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-Links li:hover{
+   color: #6600cc;
+   cursor: pointer;
+}
+/* =========HOME==========*/
+.home-container {
+   background: lightgrey;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   image-orientation: center;
+}
+
+.home-container img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+   height: 15%;
+}
+
+/* =========ABOUT==========*/
+#AboutMe{
+   text-align: center;
+}
+.MeImages img{
+   width: 40vmin;
+   height: 40vmin;
+   min-width: 350px;
+   min-height: 250px;
+   object-fit: cover;
+   display: inline;
+   margin-left: 70px;
+}
+#text{
+   text-align: center;
+   margin-left: 30px;
+}
+
+/* =========CONTACT==========*/
+
+/* =========PORTFOLIO/RESUME==========*/
+
+/* ==========FOOTER==========*/
+.footer-container {
+    text-align: center;
+    border: 2px solid #6adceb;
+    border-radius: 10px;
+    background: #a1b9f7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.footer-container li {
+    text-align: center;
+}
+
+.footer-container i {
+    margin: 0px 10px;
+    color: red);
+    font-size: 1.5em;
+    transition: .2s ease-in-out;
+}
+
+.footer-container i:hover {
+    color: red;
+}
