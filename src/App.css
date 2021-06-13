@@ -58,6 +58,52 @@ nav {
 /* =========CONTACT==========*/
 
 /* =========PORTFOLIO/RESUME==========*/
+#resume img{
+   width: 40vmin;
+   height: 40vmin;
+   min-width: 280px;
+   min-height: 370px;
+   object-fit: cover;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-left: 70px;
+}
+#resume h1{
+   text-align: center;
+}
+#resume button{
+
+}
+#projects img{
+   width: 40vmin;
+   height: 40vmin;
+   min-width: 450px;
+   min-height: 400px;
+   object-fit: cover;
+   display: inline;
+   margin-left: 70px;
+}
+#pro-text{
+   text-align: center;
+}
+#projects{
+   display: flex;
+   flex-direction: row;
+   flex-flow: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+/* ==========ICONS==========*/
+.container-grid{
+   display: grid;
+   grid-column: auto;
+   width: 156px;
+   height: 156px;
+}
+.text-center{
+   text-align: center;
+}
 
 /* ==========FOOTER==========*/
 .footer-container {

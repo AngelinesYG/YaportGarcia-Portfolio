@@ -26,117 +26,94 @@ class Icons extends React.Component {
   render() {
     return (
       <div>
-        <div className="container col-lg-10">
-          <h1 className="text-center mt-3">Skills/Technologies</h1>
-          <div className="row">
-            <div className="col-3 text-center">
+        <div className="container-grid">
+          <h1 className="text-center">Skills/Technologies</h1>
+
+            <div className="grid-item1">
               <div className="mt-4">
                 <Javascript />
                 <p className="mb-4 svgTags">Javascript</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+
+              <div className="grid-item2">
                 <Html />
                 <p className="mb-4 svgTags">HTML-5</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item3">
                 <CSS3 />
                 <p className="mb-4 svgTags">CSS-3</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item4">
                 <ReactLogo />
                 <p className="mb-4 svgTags">React</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item5">
                 <ReactRouter />
                 <p className="mb-4 svgTags">React Router</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item6">
                 <Node />
                 <p className="mb-4 svgTags">Node JS</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item7">
                 <Express />
                 <p className="mb-4 svgTags">Express</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item8">
                 <Mongodb />
                 <p className="mb-4 svgTags">MongoDB</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item9">
                 <Jquery />
                 <p className="mb-4 svgTags">jQuery</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item10">
                 <Postgres />
                 <p className="mb-4 svgTags">PostgreSQL</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item11">
                 <Atom />
                 <p className="mb-4 svgTags">Atom</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item12">
                 <Heroku />
                 <p className="mb-4 svgTags">Heroku</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item13">
                 <Netlify />
                 <p className="mb-4 svgTags">Netlify</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item14">
                 <Django />
                 <p className="mb-4 svgTags">Django</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+              </div>grid-item
+              <div className="grid-item15">
                 <Python />
                 <p className="mb-4 svgTags">Python</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item16">
                 <Postman />
                 <p className="mb-4 svgTags">Postman</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item17">
                 <Bootstrap />
                 <p className="mb-4 svgTags">Bootstrap</p>
               </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
+
+              <div className="grid-item18">
                 <Github />
                 <p className="mb-4 svgTags">Github</p>
               </div>
-            </div>
+
 
           </div>
         </div>
