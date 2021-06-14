@@ -18,7 +18,7 @@ class Portfolio extends React.Component{
             <h1>Recent Projects</h1>
             </div>
             <div id="projects">
-              <div id="project1">
+              <div id="project-list">
               <h2>Interesting Cat Facts</h2>
                <a href="https://mystifying-villani-56eb1f.netlify.app/"><img src="https://i.imgur.com/8nfXeiw.png" alt="First Project"/>
               </a>
@@ -29,7 +29,7 @@ class Portfolio extends React.Component{
               </div>
               <br />
 
-              <div id="project2">
+              <div id="project-list">
               <h2>Mom Blog</h2>
              <a href="https://aygproject2.herokuapp.com/momblog"><img src="https://i.imgur.com/RZZwuMb.png" alt="Second Project"/>
              </a>
@@ -40,7 +40,7 @@ class Portfolio extends React.Component{
               </div>
               <br />
 
-              <div id="project3">
+              <div id="project-list">
               <h2>Jalan-Jalan(travel in Indonesian)</h2>
               <a href="https://salamviaje.herokuapp.com/"><img src="https://i.imgur.com/7pjM9Hl.png" alt="Third Project"/>
               </a>
@@ -51,7 +51,7 @@ class Portfolio extends React.Component{
               </div>
               <br />
 
-              <div id="project4">
+              <div id="project-list">
               <h2>Bingo</h2>
               <a href="https://dry-cove-26271.herokuapp.com/"><img src="https://i.imgur.com/T9XqbEG.png" alt="Fourth Project"/>
               </a>
@@ -62,7 +62,7 @@ class Portfolio extends React.Component{
               </div>
               <br />
 
-              <div id="project5">
+              <div id="project-list">
               <h2>Moms Who Blog</h2>
               <a href="https://momswhoblog-frontend.herokuapp.com/moms"><img src="https://i.imgur.com/p7czme1.png" alt="Fith Project"/>
              </a>

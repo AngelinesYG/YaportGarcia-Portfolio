@@ -38,109 +38,146 @@ nav {
 }
 
 /* =========ABOUT==========*/
-#AboutMe{
-   text-align: center;
+.About-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
+
+
 .MeImages img{
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
    width: 40vmin;
    height: 40vmin;
    min-width: 350px;
    min-height: 250px;
+   margin: 20px;
    object-fit: cover;
-   display: inline;
-   margin-left: 70px;
 }
 #text{
+   margin: 15px;
    text-align: center;
-   margin-left: 30px;
+}
+#text h5{
+   margin: 25px;
+   font-weight: bold;
 }
 
 /* =========CONTACT==========*/
+.contact-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 
+.contact-container img{
+   width: 260px;
+   height: 350px;
+   margin: 10px;
+}
 /* =========PORTFOLIO/RESUME==========*/
+#resume{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#resume a button{
+   margin-bottom: 20px;
+}
 #resume img{
-   width: 40vmin;
-   height: 40vmin;
-   min-width: 280px;
-   min-height: 390px;
-   object-fit: cover;
-   display: block;
-   margin-right: auto;
-   margin-left: 70px;
+      width: 40vmin;
+      height: 40vmin;
+      min-width: 300px;
+      min-height: 390px;
 }
-#resume h1{
-   text-align: center;
-}
-#resume button{
-   align: center;
+
+#projects{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 #projects img{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    width: 40vmin;
    height: 40vmin;
    min-width: 500px;
    min-height: 560px;
-   object-fit: cover;
-   display: inline;
-   margin-left: 70px;
    padding: 28px;
 }
 #pro-text h1{
-   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #6600cc;
    text-decoration: underline;
-   color: Purple;
    font-weight: bold;
    padding: 15px;
 }
+#project-list{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#project-list button{
+   margin-bottom: 30px;
+}
+#project-list button a h3{
+   color: #6600cc
+}
 #projects h2{
-   text-align: center;
-   text-decoration: underline;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    color: red;
    font-weight: bold;
    padding: 10px;
 }
-#projects{
-   display: flex;
-   flex-direction: row;
-   flex-flow: wrap;
-   align-items: center;
-   justify-content: space-between;
-}
 #projects p{
-   text-align: center;
-   font-weight: bold;
    padding: 15px;
    margin: auto;
+   text-align: center;
+   font-weight: bold;
 }
 #projects button{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    color: darkgrey;
-   align-self: center;
 }
 /* ==========ICONS==========*/
-.icons-container{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: baseline;
-   justify-content: space-around;
+.icons div{
+   width: 10px;
+   height: 10px;
 }
-.icons{
+.textcenter{
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+   text-decoration: underline;
+   font-weight: bolder;
+   color: #6600cc;
+   margin-bottom: 35px;
+}
+svg{
    width: 80px;
    height: 80px;
-
-   padding: 10px;
-   border: solid black;
 }
-.icons div p{
-   margin: auto;
-   padding: 10px;
-   border: solid black;
-}
-
-
 /* ==========FOOTER==========*/
 .footer-container {
     text-align: center;
