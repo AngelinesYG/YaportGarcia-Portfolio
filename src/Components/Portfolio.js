@@ -14,6 +14,7 @@ class Portfolio extends React.Component{
                <button>Click Here to Download Resume</button>
               </a>
             </div>
+            <hr/>
             <div id="pro-text">
             <h1>Recent Projects</h1>
             </div>
@@ -72,6 +73,7 @@ class Portfolio extends React.Component{
              <button><a href="https://momswhoblog-frontend.herokuapp.com/moms"><h3>Live Site</h3></a></button>
               </div>
             </div>
+            <hr/>
           <Icons/>
          </div>
       )
