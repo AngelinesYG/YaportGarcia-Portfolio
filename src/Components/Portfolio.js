@@ -8,7 +8,7 @@ class Portfolio extends React.Component{
          <div className="portfolio">
             <div id="resume">
               <h1>Resume</h1>
-              <img id="resume" src="https://i.imgur.com/bg3s95S.png"/>
+              <img id="resume" src="https://i.imgur.com/DfaXJKj.png"/>
               <a href="https://drive.google.com/file/d/1uAmrLsU7CcoTef3M5EiEoLus_BNerDFx/view">
               <br />
                <button>Click Here to Download Resume</button>
