@@ -26,96 +26,93 @@ class Icons extends React.Component {
   render() {
     return (
       <div>
-        <div className="container-grid">
-          <h1 className="text-center">Skills/Technologies</h1>
 
-            <div className="grid-item1">
-              <div className="mt-4">
+          <h1 className="text-center">Skills/Technologies</h1>
+          <div className="icons-container">
+
+            <div className="icons">
                 <Javascript />
                 <p className="mb-4 svgTags">Javascript</p>
               </div>
 
-
-              <div className="grid-item2">
+              <div className="icons">
                 <Html />
                 <p className="mb-4 svgTags">HTML-5</p>
               </div>
 
-              <div className="grid-item3">
+              <div className="icons">
                 <CSS3 />
                 <p className="mb-4 svgTags">CSS-3</p>
               </div>
 
-              <div className="grid-item4">
+              <div className="icons">
                 <ReactLogo />
                 <p className="mb-4 svgTags">React</p>
               </div>
 
-              <div className="grid-item5">
+              <div className="icons">
                 <ReactRouter />
                 <p className="mb-4 svgTags">React Router</p>
               </div>
 
-              <div className="grid-item6">
+              <div className="icons">
                 <Node />
                 <p className="mb-4 svgTags">Node JS</p>
               </div>
 
-              <div className="grid-item7">
+              <div className="icons">
                 <Express />
                 <p className="mb-4 svgTags">Express</p>
               </div>
 
-              <div className="grid-item8">
+              <div className="icons">
                 <Mongodb />
                 <p className="mb-4 svgTags">MongoDB</p>
-              </div>grid-item
-              <div className="grid-item9">
+              </div>
+              <div className="icons">
                 <Jquery />
                 <p className="mb-4 svgTags">jQuery</p>
-              </div>grid-item
-              <div className="grid-item10">
+              </div>
+              <div className="icons">
                 <Postgres />
                 <p className="mb-4 svgTags">PostgreSQL</p>
-              </div>grid-item
-              <div className="grid-item11">
+              </div>
+              <div className="icons">
                 <Atom />
                 <p className="mb-4 svgTags">Atom</p>
-              </div>grid-item
-              <div className="grid-item12">
+              </div>
+              <div className="icons">
                 <Heroku />
                 <p className="mb-4 svgTags">Heroku</p>
-              </div>grid-item
-              <div className="grid-item13">
+              </div>
+              <div className="icons">
                 <Netlify />
                 <p className="mb-4 svgTags">Netlify</p>
-              </div>grid-item
-              <div className="grid-item14">
+              </div>
+              <div className="icons">
                 <Django />
                 <p className="mb-4 svgTags">Django</p>
-              </div>grid-item
-              <div className="grid-item15">
+              </div>
+              <div className="icons">
                 <Python />
                 <p className="mb-4 svgTags">Python</p>
               </div>
 
-              <div className="grid-item16">
+              <div className="icons">
                 <Postman />
                 <p className="mb-4 svgTags">Postman</p>
               </div>
 
-              <div className="grid-item17">
+              <div className="icons">
                 <Bootstrap />
                 <p className="mb-4 svgTags">Bootstrap</p>
               </div>
 
-              <div className="grid-item18">
+              <div className="icons">
                 <Github />
                 <p className="mb-4 svgTags">Github</p>
               </div>
 
-
-          </div>
         </div>
       </div>
     )

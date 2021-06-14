@@ -62,10 +62,9 @@ nav {
    width: 40vmin;
    height: 40vmin;
    min-width: 280px;
-   min-height: 370px;
+   min-height: 390px;
    object-fit: cover;
    display: block;
-   margin-left: auto;
    margin-right: auto;
    margin-left: 70px;
 }
@@ -73,19 +72,31 @@ nav {
    text-align: center;
 }
 #resume button{
-
+   align: center;
 }
 #projects img{
    width: 40vmin;
    height: 40vmin;
-   min-width: 450px;
-   min-height: 400px;
+   min-width: 500px;
+   min-height: 560px;
    object-fit: cover;
    display: inline;
    margin-left: 70px;
+   padding: 28px;
 }
-#pro-text{
+#pro-text h1{
    text-align: center;
+   text-decoration: underline;
+   color: Purple;
+   font-weight: bold;
+   padding: 15px;
+}
+#projects h2{
+   text-align: center;
+   text-decoration: underline;
+   color: red;
+   font-weight: bold;
+   padding: 10px;
 }
 #projects{
    display: flex;
@@ -94,16 +105,41 @@ nav {
    align-items: center;
    justify-content: space-between;
 }
-/* ==========ICONS==========*/
-.container-grid{
-   display: grid;
-   grid-column: auto;
-   width: 156px;
-   height: 156px;
-}
-.text-center{
+#projects p{
    text-align: center;
+   font-weight: bold;
+   padding: 15px;
+   margin: auto;
 }
+#projects button{
+   color: darkgrey;
+   align-self: center;
+}
+/* ==========ICONS==========*/
+.icons-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: baseline;
+   justify-content: space-around;
+}
+.icons{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 80px;
+   height: 80px;
+
+   padding: 10px;
+   border: solid black;
+}
+.icons div p{
+   margin: auto;
+   padding: 10px;
+   border: solid black;
+}
+
 
 /* ==========FOOTER==========*/
 .footer-container {
