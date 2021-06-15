@@ -25,7 +25,7 @@ class Portfolio extends React.Component{
               </a>
               <br />
               <p>Built with JS, jQuery and Ajax</p>
-              <p>Love cats? This simple little app is is informative and fun for cat lover. Who knew cats were so interesting?</p>
+              <p>Love cats? This simple little app is informative and fun for cat lover. Who knew cats were so interesting?</p>
               <button><a href="https://mystifying-villani-56eb1f.netlify.app/"><h3>Live Site</h3></a></button>
               </div>
               <br />
@@ -69,7 +69,7 @@ class Portfolio extends React.Component{
              </a>
              <br />
              <p>Full Stack CRUD, MERN Stack, built with Expess, Bcrypt, and Node JS for the separate back-end; and JS, React-App, and React-Router for the front-end</p>
-             <p>Moms Who Blog is an improvement to Mom Blog. A work in progress that will eventually be released to the public so that moms have a safe place to vent and know that they are not along. A place where they can cry, laugh, complain, and brag whithout the fear of judgment or backlash. In addition, it will be a place where moms can connect with other moms for more personal and live support/relatonships.</p>
+             <p>Moms Who Blog is an improvement to Mom Blog. A work in progress that will eventually be released to the public so that moms have a safe place to vent and know that they are not alone. A place where they can cry, laugh, complain, and brag whithout the fear of judgment or backlash. In addition, it will be a place where moms can connect with other moms for more personal and live support/relatonships.</p>
              <button><a href="https://momswhoblog-frontend.herokuapp.com/moms"><h3>Live Site</h3></a></button>
               </div>
             </div>
