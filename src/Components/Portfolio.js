@@ -9,7 +9,7 @@ class Portfolio extends React.Component{
             <div id="resume">
               <h1>Resume</h1>
               <img id="resume" src="https://i.imgur.com/DfaXJKj.png"/>
-              <a href="https://drive.google.com/file/d/1uAmrLsU7CcoTef3M5EiEoLus_BNerDFx/view">
+              <a href="https://drive.google.com/file/d/14vzROtV7nCNzj2BzUQJ8IidZKV65rR0N/view">
               <br />
                <button>Click Here to Download Resume</button>
               </a>
