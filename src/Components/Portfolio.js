@@ -8,12 +8,13 @@ class Portfolio extends React.Component{
          <div className="portfolio">
             <div id="resume">
               <h1>Resume</h1>
-              <img id="resume" src="https://i.imgur.com/TeDxBTz.png"/>
-              <a href="https://drive.google.com/file/d/14vzROtV7nCNzj2BzUQJ8IidZKV65rR0N/view">
+              <a rel="noopener noreferrer" href="https://drive.google.com/file/d/14vzROtV7nCNzj2BzUQJ8IidZKV65rR0N/view" target="_blank">
               <br />
-               <button>Click Here to Download Resume</button>
+               <button>Click Here to View Resume in New Tab</button>
               </a>
             </div>
+            <hr/>
+            <Icons/>
             <hr/>
             <div id="pro-text">
             <h1>Recent Projects</h1>
@@ -74,7 +75,7 @@ class Portfolio extends React.Component{
               </div>
             </div>
             <hr/>
-          <Icons/>
+
          </div>
       )
    }

@@ -7,7 +7,7 @@ class Contact extends React.Component{
          <div className="contact-container">
             <h2>I look forward to meeting and chatting with you soon!</h2>
             <h3>Please follow the links below to connect with me</h3>
-            <img src="https://i.imgur.com/KzbhaWd.jpg"/>
+            <img src="https://i.imgur.com/J5xTPJG.jpg"/>
          </div>
       )
    }
