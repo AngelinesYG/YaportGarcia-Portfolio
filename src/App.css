@@ -123,6 +123,10 @@ nav {
    min-width: 500px;
    min-height: 560px;
    padding: 28px;
+   box-shadow: 3px 3px 3px 3px lightblue;
+}
+#projects img:hover{
+   transform: translateY(-8px);
 }
 
 #pro-text h1{
@@ -144,9 +148,15 @@ nav {
 }
 #project-list button{
    margin-bottom: 30px;
+   color: blue;
+   border-radius: 5px;
 }
-#project-list button a h3{
-   color: #6600cc
+#project-list button a{
+   color: blue;
+   font-weight: bolder;
+}
+#project-list button:hover{
+   transform: translateY(-8px);
 }
 #projects h2{
    display: flex;
@@ -190,6 +200,11 @@ svg{
    width: 80px;
    height: 80px;
    margin: 15px;
+   box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+svg:hover{
+   transform: translateY(-10px);
 }
 /* ==========FOOTER==========*/
 .footer-container {
@@ -249,5 +264,5 @@ svg{
 }
 
 @media only screen and (min-width: 414px){
-   
+
 }
