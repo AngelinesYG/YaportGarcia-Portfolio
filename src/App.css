@@ -167,6 +167,11 @@ nav {
    font-weight: bold;
    padding: 10px;
 }
+#projects h5{
+   font-weight: bolder;
+   text-decoration: underline;
+   padding: none;
+}
 #projects p{
    padding: 15px;
    margin: auto;
