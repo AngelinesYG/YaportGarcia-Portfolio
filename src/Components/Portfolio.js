@@ -8,7 +8,7 @@ class Portfolio extends React.Component{
          <div className="portfolio">
             <div id="resume">
               <h1>Resume</h1>
-              <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1jIRs4J8V3_RYwDPVK6GR-tfKtPeSJkw1/view?usp=sharing" target="_blank">
+              <a rel="noopener noreferrer" href="https://www.canva.com/design/DAEkwXzhDcA/pVnR3YLlrSRGSeI7Os0Pig/view?utm_content=DAEkwXzhDcA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">
               <br />
                <button>Click Here to View Resume in New Tab</button>
               </a>
