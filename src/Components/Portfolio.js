@@ -8,7 +8,7 @@ class Portfolio extends React.Component{
          <div className="portfolio">
             <div id="resume">
               <h1>Resume</h1>
-              <a rel="noopener noreferrer" href="https://www.canva.com/design/DAEkwXzhDcA/pVnR3YLlrSRGSeI7Os0Pig/view?utm_content=DAEkwXzhDcA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">
+              <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1W9L0kx2Z2iWvUy7Q677_11zs0AChonFW/view?usp=sharing" target="_blank">
               <br />
                <button>Click Here to View Resume in New Tab</button>
               </a>
@@ -31,18 +31,7 @@ class Portfolio extends React.Component{
                </div>
                <br />
 
-              <div id="project-list">
-              <h2>Mom Blog</h2>
-             <img src="https://i.imgur.com/RZZwuMb.png" alt="Second Project"/>
-             <br />
-             <p>Full Stack CRUD App, built with JS(EJS), Express, Bcrypt, Express-Sessions, MongoDB, Mongoose, and Node JS</p>
-             <h5>Description</h5>
-             <p>This was the first version of Moms Who Blog. Created with busy moms in mind, Mom Blogs allows moms to vent, annonimously, while also getting a good laugh when looking at the picture memes and other moms's blogs.</p>
-             <button><a href="https://aygproject2.herokuapp.com/momblog"><h3>Live Site</h3></a></button>
-              </div>
-              <br />
-
-              <div id="project-list">
+               <div id="project-list">
               <h2>Jalan-Jalan(travel in Indonesian)</h2>
               <img src="https://i.imgur.com/7pjM9Hl.png" alt="Third Project"/>
               <br />
@@ -62,6 +51,17 @@ class Portfolio extends React.Component{
               <h5>Description</h5>
               <p>This group project was the collaboration of <a href="https://www.linkedin.com/in/christophernugroho/">Christopher Nugroho,</a> <a href="https://www.linkedin.com/in/clareeisentrout/">Clare Eisentrout,</a> and myself. This app helps dog lovers find the nearest dog parks to take their furry friends. It incorporates an external weather API so that the user can check the local wheter before heading out and it also includes Goole Maps, which allows the user to expand their search and view the proximities for each dog park in their area.</p>
               <button><a href="https://dry-cove-26271.herokuapp.com/"><h3>Live Site</h3></a></button>
+              </div>
+              <br />
+
+              <div id="project-list">
+              <h2>Mom Blog</h2>
+             <img src="https://i.imgur.com/RZZwuMb.png" alt="Second Project"/>
+             <br />
+             <p>Full Stack CRUD App, built with JS(EJS), Express, Bcrypt, Express-Sessions, MongoDB, Mongoose, and Node JS</p>
+             <h5>Description</h5>
+             <p>This was the first version of Moms Who Blog. Created with busy moms in mind, Mom Blogs allows moms to vent, annonimously, while also getting a good laugh when looking at the picture memes and other moms's blogs.</p>
+             <button><a href="https://aygproject2.herokuapp.com/momblog"><h3>Live Site</h3></a></button>
               </div>
               <br />
 

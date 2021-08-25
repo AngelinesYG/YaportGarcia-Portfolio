@@ -25,11 +25,11 @@ render() {
                  <Home/>
                 </div>
                </Route>
-               <Route path="/About">
+               {/* <Route path="/About">
                 <div id="about-container">
                   <About/>
                 </div>
-               </Route>
+               </Route> */}
                <Route path="/Portfolio">
                 <div id="portfolio-container">
                   <Portfolio/>

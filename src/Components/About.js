@@ -7,8 +7,7 @@ class About extends React.Component{
          <div className="About-container">
           <h3 id="AboutMe">Hi! Thanks for Visiting!</h3>
           <div className="MeImages">
-            <img src="https://i.imgur.com/iYvwBpg.jpg" alt="AngelinesYG"/>
-            <img src="https://i.imgur.com/tVKt0zn.jpg" alt="Angelines"/>
+            
           </div>
 
           <div id="text">

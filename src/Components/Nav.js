@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const Nav = () => {
    const navStyle = {
-      color: '#c0c0c0'
+      color: '#f1eeee'
    };
    return(
       <nav>
@@ -18,9 +18,9 @@ const Nav = () => {
             <li>Portfolio/Resume</li>
             </Link>
             <br />
-            <Link style={navStyle} to="/about">
+            {/* <Link style={navStyle} to="/about">
             <li>About</li>
-            </Link>
+            </Link> */}
             <br />
             <Link style={navStyle} to="/contact">
             <li>Contact</li>

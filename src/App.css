@@ -4,8 +4,8 @@ nav {
    justify-content: space-around;
    align-items: center;
    min-height: 10vh;
-   background: red;
-   color: #c0c0c0;
+   background: #8d8f94;
+   color: #f1eeee;
 }
 
 .nav-Links{
@@ -18,25 +18,27 @@ nav {
 }
 
 .nav-Links li:hover{
-   color: #6600cc;
+   color: red;
    cursor: pointer;
 }
 /* =========HOME==========*/
 .home-container {
-   background: lightgrey;
+   background: #e6f2ff;
    display: flex;
    flex-direction: column;
    text-align: center;
-   image-orientation: center;
 }
-
+.home-container p{
+   font-size: 70px;
+}
+/* 
 .home-container img{
    display: block;
    margin-left: auto;
    margin-right: auto;
    width: 25%;
    height: 15%;
-}
+} */
 
 /* =========ABOUT==========*/
 .About-container{
@@ -71,7 +73,7 @@ nav {
 
 /* =========CONTACT==========*/
 .contact-container{
-   background: lightgrey;
+   background: #e6f2ff;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -214,9 +216,7 @@ svg:hover{
 /* ==========FOOTER==========*/
 .footer-container {
     text-align: center;
-    border: 2px solid #6adceb;
-    border-radius: 10px;
-    background: #a1b9f7;
+    background: #8d8f94;
     padding: 20px;
     margin-bottom: 20px;
 }
